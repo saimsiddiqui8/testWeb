@@ -1,0 +1,39 @@
+.heading {
+    background: var(--gradient-2, linear-gradient(90deg, #3B338B -2.24%, #D460A3 148.46%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Inter;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+#main {
+    border-radius: 18px;
+    background: rgba(59, 51, 139, 0.13);
+}
+
+#rowImage {
+    opacity: 1;
+}
+
+.customBtn {
+    color: #FFF;
+    background: var(--gradient-2, linear-gradient(90deg, #3B338B -2.24%, #D460A3 148.46%));
+    border: none;
+    border-bottom: 0.01px solid #454545;
+}
+.customBox{
+    background: var(--gradient-2, linear-gradient(90deg, #3B338B -2.24%, #D460A3 148.46%));
+    border-radius: 18px;
+    border-top: 0.1px solid #FFF;
+    border-bottom: 0.1px solid #FFF;
+    
+}
+.selected {
+    background: #fff;
+    border-radius: 5px;
+    color: #000;
+  }
